@@ -1,0 +1,30 @@
+1.2.6. (2008.05.08)
+Updated SimpleTest library to version 1.0.1
+
+1.2.5 (2007.12.06)
+-----------------
+Added timeout threshold for navigation test.
+The plugin may be configured to return as output either the detailed test report or only the navigation time test.
+The archive result functionality is now enabled.
+
+1.2.4 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.2.3 (2007.10.11)
+------------------
+Added the capability to use http proxy for tests
+
+1.2.2 (2007.09.25)
+------------------
+Identity is now an optional field
+Update simpletest libs
+The name of the package for the plugin is now lowercase
+
+1.2.1 (2007.08.02)
+------------------
+Added info for the minimum required version of Ortro
+
+1.2.0 (2007.07.24)
+------------------
+Initial release with i18n support

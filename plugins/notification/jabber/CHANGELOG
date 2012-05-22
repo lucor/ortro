@@ -1,0 +1,14 @@
+1.2.3 (2007.12.06)
+Added. [1824200] Jabber notification plugin SSL support
+
+1.2.2 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.2.1 (2007.08.02)
+------------------
+Added info for the minimum required version of Ortro
+
+1.2.0 (2007.07.24)
+------------------
+Initial release with i18n support

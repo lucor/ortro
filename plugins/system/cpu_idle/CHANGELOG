@@ -1,0 +1,19 @@
+1.0.4 (2009.08.06)
+------------------
+Bug #123 Update plugin to work with latest ssh library
+
+1.0.3 (2008.06.13)
+------------------
+Fixed. #75 CPU idle plugin does not work correctly on all platforms
+
+1.0.2 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.0.1 (2007.08.02)
+------------------
+Added info for the minimum required version of Ortro
+
+1.0.0 (2007.07.24)
+------------------
+Initial release with i18n support

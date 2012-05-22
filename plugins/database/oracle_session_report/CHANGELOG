@@ -1,0 +1,11 @@
+1.0.2 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.0.1 (2007.08.02)
+------------------
+Added info for the minimum required version of Ortro
+
+1.0.0 (2007.07.24)
+------------------
+Initial release with i18n support

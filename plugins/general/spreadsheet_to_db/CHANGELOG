@@ -1,0 +1,16 @@
+1.0.3 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.0.2 (2007.10.30)
+------------------
+Added capability to escape or remove quotes in a cell field.
+
+1.0.1 (2007.10.22)
+------------------
+Removed http download for spreadsheet, please create a task and use HTTP Download File plugin if you need to download via http.
+Added quote for the db identifiers 
+
+1.0.0 (2007.09.28)
+------------------
+Initial release

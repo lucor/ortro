@@ -1,0 +1,152 @@
+Ortro an open source framework designed to make easy activities
+for job scheduling and system/application monitoring.
+=========================================================================
+
+Copyright (C) 2006 and following years, Luca Corbo <lucor@ortro.net>
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Ortro includes or is derivative of works distributed under the following copyright notices:
+
+Pear packages:
+==============
+
+Config
+------
+Copyright: 1997, 1998, 1999, 2000, 2001 The PHP Group
+License: PHP license
+
+HTML_Common
+-----------
+Copyright: 1997, 1998, 1999, 2000, 2001 The PHP Group
+License: PHP license
+
+HTML_QuickForm
+--------------
+Copyright: 1997-2003 The PHP Group
+License: PHP license
+
+Note: HTML_QuickForm was patched see point 1 and below for details.
+
+1) Patch to enable the javascript check form control only if the input form is not disabled.
+The script modified is HTML/QuickForm/RuleRegistry.php
+Go to:
+function getValidationScript
+Change:
+if (" . str_replace('{jsVar}', 'value', $jsCheck) . " && !errFlag['{$jsField}']) {\n"
+with:
+if (" . str_replace('{jsVar}', 'value', $jsCheck) . " && !errFlag['{$jsField}'] && !frm.elements['{$jsField}'].disabled) {\n" 
+
+and
+
+if (res < {$ruleData['howmany']} && !errFlag['{$jsField}']) {\n" .
+	with
+if (res < {$ruleData['howmany']} && !errFlag['{$jsField}'] && !frm.elements['{$jsField}'].disabled) {\n" .
+
+2) Set to null the default values for $_jsPrefix and $_jsPostfix
+Modified file HTML/QuickForm.php
+
+HTML_Table
+---------- 
+Copyright: 2005-2006 The PHP Group
+License: New BSD
+
+MDB2
+----
+License: BSD License
+
+MDB2_Driver_ibase
+-----------------
+Copyright: 1998-2006 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith, Lorenzo Alberton
+License: BSD License
+
+MDB2_Driver_mssql
+-----------------
+Copyright: 1998-2006 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith, Frank M. Kromann
+License: BSD License
+
+MDB2_Driver_mysql
+-----------------
+Copyright: 1998-2006 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith
+License: BSD License
+
+MDB2_Driver_mysqli
+-----------------
+Copyright: 1998-2006 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith
+License: BSD License
+
+MDB2_Driver_oci8
+-----------------
+Copyright: 1998-2007 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith
+License: BSD License
+
+MDB2_Driver_pgsql
+-----------------
+Copyright: 1998-2006 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith
+License: BSD License
+
+MDB2_Driver_sqlite
+------------------
+Copyright: 1998-2006 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith
+License: BSD License
+
+MDB2_Schema
+-----------
+Copyright: 1998-2006 Manuel Lemos, Tomas V.V.Cox, Stig. S. Bakken, Lukas Smith
+License: BSD License
+
+XML_Parser
+----------
+Copyright: 1997-2004 The PHP Group
+License: PHP License
+
+XML_RPC
+--------
+Copyright: 1999-2001 Edd Dumbill, 2001-2006 The PHP Group
+License: PHP License
+
+PEAR
+----
+Copyright: 1997-2006 The PHP Group
+License: PHP License
+
+FCKEditor 
+=========
+Copyright: 2003-2007 Frederico Caldeira Knabben 
+License: GNU Lesser General Public License Version 2.1 or later (the "LGPL") 
+
+Overlibwms
+==========
+Copyright: Copyright Foteos Macrides 2002-2007
+License: Artistic (see: http://www.macridesweb.com/oltest/license.html)
+
+Open Flash Chart
+================
+Copyright: (C) 2007 John Glazebrook
+License: GNU General Public License 2 or later
+
+
+Icons:
+======
+
+KDE Crystal theme icons 
+-----------------------
+Copyright: 2002 and following years KDE Artists
+License: GNU Lesser General Public License (the "LGPL")
+
+Nuvola
+------
+Copyright: 2003-2004  David Vignoni
+License: GNU Lesser General Public License (the "LGPL")

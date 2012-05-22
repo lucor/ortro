@@ -1,0 +1,16 @@
+1.2.3 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.2.2 (2007.10.17)
+------------------
+Added the possibility to set a custom prefix for the file upload via ftp. 
+
+1.2.1 (2007.08.02)
+------------------
+Added info for the minimum required version of Ortro
+Changed prefix for temp file in ortro_sms_
+
+1.2.0 (2007.07.24)
+------------------
+Initial release with i18n support

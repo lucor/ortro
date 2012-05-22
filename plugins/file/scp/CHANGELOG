@@ -1,0 +1,16 @@
+1.0.3 (2009.07.30)
+------------------
+Feature #121: enable compression and recursive copy
+
+1.0.2 (2009.07.20)
+------------------
+Feature #117: whitelist/blacklist filter
+Feature #118: display transfer time
+
+1.0.1 (2009.07.17)
+------------------
+Enabled archive result function.
+
+1.0.0 (2009.06.04)
+------------------
+Initial release.

@@ -1,0 +1,30 @@
+/* 
+
+STICKER - A valid, easy to use CSS sticky footer by Ryan Fait
+
+This is the basic CSS you need along with the one extra empty
+div and the wrapper required to achieve the effect. I suggest
+that you leave the * { margin: 0; } code in while testing and
+building your site because margins do have a tendency to mess
+things up a bit. Have fun!
+
+Copyright (c) 2006-2007 Ryan Fait
+http://ryanfait.com/sticky-footer/
+
+*/
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    height: 4em;  /*.push must be the same height as .footer */
+}

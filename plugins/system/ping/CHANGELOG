@@ -1,0 +1,19 @@
+1.2.4 (2009.09.22)
+------------------
+Changed. Updated Pear library.
+
+1.2.3 (2008.01.07)
+------------------
+Updated Ping Pear lib (v2.4.3) 
+
+1.2.2 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.2.1 (2007.08.02)
+------------------
+Added info for the minimum required version of Ortro
+
+1.2.0 (2007.07.24)
+------------------
+Initial release with i18n support

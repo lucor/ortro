@@ -1,0 +1,19 @@
+1.2.4 (2009.08.06)
+------------------
+Bug #123 Update plugin to work with latest ssh library
+
+1.2.3 (2008.03.06)
+------------------
+Fix. [1908650] Missed error handling on ssh connection failure.
+
+1.2.2 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.2.1 (2007.08.02)
+------------------
+Added info for the minimum required version of Ortro
+
+1.2.0 (2007.07.24)
+------------------
+Initial release with i18n support

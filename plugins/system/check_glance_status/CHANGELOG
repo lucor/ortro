@@ -1,0 +1,7 @@
+1.0.1 (2009.08.06)
+------------------
+Fix. Update to work with latest ssh library
+
+1.0.0 (2007.11.19)
+------------------
+Initial release with i18n support

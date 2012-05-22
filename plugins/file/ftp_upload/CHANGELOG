@@ -1,0 +1,15 @@
+1.0.3 (2008.06.24)
+------------------
+#80 Add get function, put is the default if not set
+
+1.0.2 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.0.1 (2007.10.22)
+------------------
+Changed. Use ORTRO_INCOMING as default dir to save file
+
+1.0.0 (2007.10.15)
+------------------
+Initial release

@@ -1,0 +1,11 @@
+1.2.4 (2009.08.06)
+------------------
+Bug #123 Update plugin to work with latest ssh library
+
+1.0.1 (2007.11.19)
+------------------
+Use init.inc.php
+
+1.0.0 (2007.08.02)
+------------------
+Initial release
