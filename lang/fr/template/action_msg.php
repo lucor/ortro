@@ -1,0 +1,97 @@
+<?php
+
+/**
+ *
+ * AUTOMATICALLY GENERATED CODE - DO NOT EDIT BY HAND
+ *
+**/
+define('FIELD_IDENTITY_PICK', "Sélectionner l'identité à utiliser:");
+define('FIELD_IDENTITY_PICK_TITLE', "Sélection d'identité");
+define('MSG_ACTION_CONFIGURATION_FILE_NOT_FOUND', "Fichier de configuration non trouvé pour :");
+define('MSG_ACTION_CONFIGURATION_UPDATED', "La configuration a été mise à jour.");
+define('MSG_ACTION_CONFIGURE_FILE_NOT_FOUND', "Le fichier configure.php n'existe pas dans");
+define('MSG_ACTION_DB_ADDED', "La base de données a été ajoutée.");
+define('MSG_ACTION_DB_DELETED', "La base de données a été supprimée.");
+define('MSG_ACTION_DB_MODIFIED', "Les paramètres sur la base de données ont été modifiés.");
+define('MSG_ACTION_DB_NAME_ALREADY_EXISTS', "Une base de données avec le même paramétrage est déjà en cours d'utilisation.");
+define('MSG_ACTION_DB_REMOVE_JOB_FIRST', "Les travaux ci-dessous sont associés avec cette base de données. Supprimer d'abord les travaux.");
+define('MSG_ACTION_FILE_DELETED_ERROR', "Une erreur est intervenue durant la suppression du fichier.");
+define('MSG_ACTION_FILE_DELETED_SUCCESS', "Fichier supprimé.");
+define('MSG_ACTION_FILE_UPLOAD_SUCCESS', "Le fichier a été téléchargé avec succès.");
+define('MSG_ACTION_GROUP_ADDED', "Groupe ajouté.");
+define('MSG_ACTION_GROUP_DELETED', "Groupe supprimé.");
+define('MSG_ACTION_GROUP_MODIFIED', "Paramètres du groupe modifiés.");
+define('MSG_ACTION_GROUP_NAME_ALREADY_EXISTS', "Le nom de groupe est déjà utilisé.");
+define('MSG_ACTION_HOST_ADDED', "Serveur ajouté.");
+define('MSG_ACTION_HOST_DELETED', "Serveur supprimé.");
+define('MSG_ACTION_HOST_MODIFIED', "Paramètres du serveur modifiés.");
+define('MSG_ACTION_HOST_STATUS_UPDATED', "Etat du serveur mis à jour.");
+define('MSG_ACTION_HOST_REMOVE_JOB_FIRST', "Les travaux ci-dessous sont associés avec ce serveur. Supprimer d'abord les travaux.");
+define('MSG_ACTION_IDENTITY_ADDED', "Identité ajoutée.");
+define('MSG_ACTION_IDENTITY_DELETED', "Identité supprimée.");
+define('MSG_ACTION_IDENTITY_MODIFIED', "Identité modifiée.");
+define('MSG_ACTION_IP_HOSTNAME_ALREADY_USED', "L'adresse IP ou le nom du serveur est déjà utilisé.");
+define('MSG_ACTION_JOB_ADDED', "Travail ajouté.");
+define('MSG_ACTION_JOB_COPIED', "Travail copié.");
+define('MSG_ACTION_JOB_DELETED', "Travail supprimé.");
+define('MSG_ACTION_JOB_EXECUTED', "Travail exécuté.");
+define('MSG_ACTION_JOB_IS_LOCKED', "Le travail est verrouillé. Vous devez d'abord le dé-verrouillé.");
+define('MSG_ACTION_JOB_IS_NOT_RUNNING', "Le travail n'est pas en cours d'exécution.");
+define('MSG_ACTION_JOB_IS_RUNNING', "Le travail est en cours d'exécution. Veuillez patienter.");
+define('MSG_ACTION_JOB_MODIFIED', "Paramètres du travail modifiés.");
+define('MSG_ACTION_JOB_STATUS_UPDATED', "Etat du travail mis à jour.");
+define('MSG_ACTION_LABEL_ALREADY_USED', "Ce nom est déjà utilisé.");
+define('MSG_ACTION_MAX_NUM_OF_COPY', "Vous avez atteint le nombre maximum de copies autorisées. Veuillez le renommer et essayez de nouveau.");
+define('MSG_ACTION_MIN_VERSION_REQUIRED', "La version minimum d'Ortro pour cette extension est:");
+define('MSG_ACTION_NOTIFICATION_ADDED', "Notification ajoutée.");
+define('MSG_ACTION_NOTIFICATION_COPIED', "Notification copiée.");
+define('MSG_ACTION_NOTIFICATION_DELETED', "Notification supprimée.");
+define('MSG_ACTION_NOTIFICATION_MODIFIED', "Paramètres de la notification modifiés.");
+define('MSG_ACTION_NOT_NOTIFICATION_PLUGIN', "n'est pas une extension de notification");
+define('MSG_ACTION_NOT_VALID', "Action invalide!!!");
+define('MSG_ACTION_OLD_PASSWORD_NOT_VALID', "L'ancien mot de passe n'est pas valide.");
+define('MSG_ACTION_PLUGIN_ALREADY_INSTALLED', "Extension déjà installée.");
+define('MSG_ACTION_PLUGIN_DELETED', "Extension supprimée.");
+define('MSG_ACTION_PLUGIN_INSTALLED', "Extension installée.");
+define('MSG_ACTION_PLUGIN_REQUIRE_DB', "Cette extension nécessite l'utilisation d'une base de données.");
+define('MSG_ACTION_PROBLEM_DURING_TRANSFER', "Un problème est survenu durant le transfert du fichier.<br/>La taille maximum d'un fichier téléchargé est :");
+define('MSG_ACTION_REMOVE_ALL_NOTIFICATIONS', "Vous devez d'abord supprimer toutes les méthodes de notifications.");
+define('MSG_ACTION_REMOVE_IDENTITY_FIRST', "Les travaux ci-dessous sont associés avec cette identité. Supprimer d'abord les travaux.");
+define('MSG_ACTION_REMOVE_JOB_FIRST', "Les travaux ci-dessous sont associés avec cette extensions de traitement. Supprimer d'abord les travaux.");
+define('MSG_ACTION_REMOVE_NOTIFICATION_FIRST', "Les notifications ci-dessous sont associés avec cette extension. Supprimer d'abord les notifications.");
+define('MSG_ACTION_REMOVE_USER_FIRST', "Les utilisateurs ci-dessous sont associés avec ce groupe. Supprimer d'abord les utilisateurs.");
+define('MSG_ACTION_STEP_ADDED', "Etape ajoutée.");
+define('MSG_ACTION_STRANGE_STATUS', "Etat inconnu. Veuillez contacter l'administrateur.");
+define('MSG_ACTION_SYSTEM_ADDED', "Système ajouté.");
+define('MSG_ACTION_SYSTEM_ALREADY_USED', "Ce nom de système est déjà utilisé.");
+define('MSG_ACTION_SYSTEM_DELETED', "Système supprimé.");
+define('MSG_ACTION_SYSTEM_HOSTNAME_ALREADY_USED', "L'association entre ce système et ce serveur existe déjà.");
+define('MSG_ACTION_SYSTEM_MODIFIED', "Le nom du système a été modifié.");
+define('MSG_ACTION_SYSTEM_REMOVE_JOB_FIRST', "Les travaux ci-dessous sont associés avec ce système. Supprimer d'abord les travaux.");
+define('MSG_ACTION_USERNAME_ALREADY_USED', "Ce nom d'utilisateur existe déjà.");
+define('MSG_ACTION_USER_ADDED', "Utilisateur ajouté.");
+define('MSG_ACTION_USER_DELETED', "Utilisateur supprimé.");
+define('MSG_ACTION_USER_DELETED_FROM_GROUP', "Utilisateur supprimé du groupe.");
+define('MSG_ACTION_USER_IN_GROUP_ADDED', "Utilisateur ajouté au groupe.");
+define('MSG_ACTION_USER_MODIFIED', "Paramètres de l'utilisateur modifiés.");
+define('MSG_ACTION_WORKFLOW_ADDED', "Enchaînement ajouté.");
+define('MSG_ACTION_WORKFLOW_COPIED', "Enchaînement copié.");
+define('MSG_ACTION_WORKFLOW_DELETED', "Enchaînement supprimé.");
+define('MSG_ACTION_WORKFLOW_EXECUTED', "Enchaînement exécuté avec succès.");
+define('MSG_ACTION_WORKFLOW_IS_LOCKED', "L'enchaînement est verrouillé. Vous devez d'abord le dé-verrouillé.");
+define('MSG_ACTION_WORKFLOW_IS_NOT_RUNNING', "L'enchaînement n'est pas en cours d'exécution.");
+define('MSG_ACTION_WORKFLOW_KILLED', "Enchaînement abandonné.");
+define('MSG_ACTION_WORKFLOW_MODIFIED', "Enchaînement modifié.");
+define('MSG_ACTION_WORKFLOW_REMOVE_STEP_FIRST', "Les étapes ci-dessous sont associées avec d'autres étapes. Supprimer d'abord les étapes.");
+define('MSG_ACTION_WORKFLOW_STATUS_UPDATED', "Etat de l'enchaînement mis à jour.");
+define('MSG_ACTION_WORKFLOW_STEP_ADDED', "Etape ajoutée dans l'enchaînement.");
+define('MSG_ACTION_WORKFLOW_STEP_DELETED', "Etape supprimée.");
+define('MSG_EXECUTION_ABORTED', "Exécution interrompue.");
+define('MSG_GD_LIB_NOT_ENABLED', "Impossible de créer l'image.<br/>PHP n'est pas configuré avec la librairie GD.");
+define('MSG_IDENTITY_NOT_FOUND', "Pas d'identité trouvée pour ce système.");
+define('MSG_IDENTITY_PICK', "Sélectionner");
+define('MSG_LOGOUT', "Vous êtes maintenant déconnecté.");
+define('MSG_PERMISSION_DENIED', "Non autorisé!!!");
+define('MSG_ACTION_SYSTEM_HOST_LOCKED',"Le système ou le serveurest verrouillé. Vous devez d'abord le dé-verrouillé.");
+define('MSG_ACTION_SYSTEM_STATUS_UPDATED', "Etat du système mis à jour.");
+?>
