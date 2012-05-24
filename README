@@ -1,14 +1,18 @@
- -------------------------- Ortro -------------------------------
-An open source framework designed to make easy activities
-for job scheduling and system/application monitoring.
- ----------------------------------------------------------------
+Ortro
+=====
 
-License: GNU GPL (GNU General Public License. See LICENSE file),
-         OSI Certified Open Source Software license.
+An open source framework designed to make easy activitiesfor job scheduling and system/application monitoring.
+
+License: GNU GPL (GNU General Public License. See LICENSE file), OSI Certified Open Source Software license.
+
 Version: 1.3.5
+
 Platforms: Linux, BSD, Solaris and other *NIX's, BeOS, OS/2...
+
 Author: Luca Corbo <lucor@ortro.net>
+
 Web site and latest version: http://www.ortro.net
+
 
 Features
 ========
@@ -37,8 +41,7 @@ Requirements
 External libraries
 ==================
 
-Ortro includes or is derivative of works distributed under the copyright 
-notices as reported in the COPYRIGHT file.
+Ortro includes or is derivative of works distributed under the copyright notices as reported in the COPYRIGHT file.
 
 About the author, license and support
 =====================================
