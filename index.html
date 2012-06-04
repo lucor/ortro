@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ortro by lucor</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Ortro</h1>
+        <p>The easy way for job scheduling and application monitoring</p>
+        <p class="view"><a href="https://github.com/lucor/ortro">View the Project on GitHub <small>lucor/ortro</small></a></p>
+        <ul>
+          <li><a href="https://github.com/lucor/ortro/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/lucor/ortro/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/lucor/ortro">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>Ortro is meant to be an open source framework for enterprise scheduling and monitoring.
+The aim is to create a web application that allows you:</p>
+
+<ul>
+<li>auto discovery of the hosts in your network</li>
+<li>easily assemble jobs to perform workflows</li>
+<li>schedule your jobs in a centralized way</li>
+<li>archive jobs result</li>
+<li>create jobs/workflows for system monitoring</li>
+<li>create jobs/workflows application monitoring</li>
+<li>run existing scripts on remote hosts in secure way using ssh</li>
+<li>create simple reports using query from db's (html,txt,csv,xls) and send it by mail</li>
+<li>tests your web application</li>
+<li>send a notification on job results</li>
+<li>import/export utility</li>
+</ul><h1>Features</h1>
+
+<p>Ortro does not require installation of software/daemon on the remote hosts, it communicates with hosts using ssh or dbms connection.
+It's extensible, every component is seen like a plug-in (php classes loaded dynamically).</p>
+
+<h2>Plugin categories</h2>
+
+<ul>
+<li> Database</li>
+<li> File</li>
+<li> General</li>
+<li> System</li>
+<li> WWW</li>
+</ul><h2>Notification</h2>
+
+<ul>
+<li> Mail</li>
+<li> SMS (using ftp interface)</li>
+<li> Tibco RendezVous Message</li>
+<li> Tivoli postemsg</li>
+<li> Jabber</li>
+</ul><h2>Auto discovery of hosts</h2>
+
+<p>Scan your network and add automatically the discovered hosts in a specified System.
+It is built on top of the Pear <a href="http://pear.php.net/package/Net_Nmap">Net_Nmap</a> library and requires a <a href="http://nmap.org">Nmap</a> installation on your system.</p>
+
+<h2>Authentication</h2>
+
+<ul>
+<li> Users, groups and roles management</li>
+<li> DB Authentication</li>
+<li> LDAP Authentication</li>
+<li> Identity Management</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/lucor">lucor</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-7923298-2");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
