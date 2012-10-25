@@ -1,7 +1,7 @@
 Ortro
 =====
 
-An open source framework designed to make easy activitiesfor job scheduling and system/application monitoring.
+An open source framework designed to make easy activities for job scheduling and system/application monitoring.
 
 License: GNU GPL (GNU General Public License. See LICENSE file), OSI Certified Open Source Software license.
 
