@@ -9,9 +9,9 @@ Version: 1.4.x
 
 Platforms: Linux, BSD, Solaris and other *NIX's, BeOS, OS/2...
 
-Author: Luca Corbo <lucor@ortro.net>
+Author: Luca Corbo (https://github.com/lucor)
 
-Web site and latest version: http://www.ortro.net
+Web site and latest version: http://lucor.github.io/ortro
 
 
 Features
@@ -27,8 +27,6 @@ It's extensible, every compontent is seen like a plug-in
 Ortro does not require installation of software/daemon on the hosts, 
 it communicates with hosts using ssh or dbms connection.
 
-For the latest documentation and how to install please refer to the web site:
-http://www.ortro.net
 
 Requirements
 ============
@@ -45,7 +43,7 @@ Ortro includes or is derivative of works distributed under the copyright notices
 
 About the author, license and support
 =====================================
-Copyright (C) 2006 and following years, Luca Corbo <lucor@ortro.net>
+Copyright (C) 2006 and following years, Luca Corbo (https://github.com/lucor)
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
